@@ -1,8 +1,12 @@
+import LondonBridge from '/images/LondonBridge.jpg'
+import LondonEye from './images/LondonEye.jpg'
+import BigBen2 from '/images/BigBen2.jpg'
+
 export default [
         {
         id: 1,
         img: {
-            src: "./images/LondonBridge.jpg",
+            src: LondonBridge,
             alt: "London Bridge"
         },
         title: "London Bridge",
@@ -14,7 +18,7 @@ export default [
     {
         id: 2, 
         img: {
-            src: "./images/LondonEye.jpg",
+            src: LondonEye,
             alt: "London Eye"
         },
         title: "London Eye",
@@ -27,7 +31,7 @@ export default [
     {
         id: 3,
         img: {
-            src: "./images/BigBen2.jpg",
+            src: BigBen2,
             alt: "Big Ben"
         },
         title: "Big Ben",
