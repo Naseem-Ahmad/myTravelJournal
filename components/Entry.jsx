@@ -1,10 +1,6 @@
-<<<<<<< HEAD
+
 import marker from '../images/marker.png'
-=======
-/**
- * Challenge: Fix our component! 😱
- */
->>>>>>> f04f80c01ef4fe5a01d08ac775a3de5d754f178f
+
 
 export default function Entry(props) {
     return (
@@ -19,11 +15,7 @@ export default function Entry(props) {
             <div className="info-container">
                 <img 
                     className="marker"
-<<<<<<< HEAD
                     src={marker} 
-=======
-                    src="../images/marker.png" 
->>>>>>> f04f80c01ef4fe5a01d08ac775a3de5d754f178f
                     alt="map marker icon"
                 />
                 <span className="country">{props.entry.country}</span>
