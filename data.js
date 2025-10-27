@@ -1,6 +1,6 @@
-import LondonBridge from '/images/LondonBridge.jpg'
-import LondonEye from './images/LondonEye.jpg'
-import BigBen2 from '/images/BigBen2.jpg'
+import LondonBridge from '/images/LondonBridge.png'
+import LondonEye from '/images/LondonEye.jpg'
+import BigBen2 from '/images/BigBen2.png'
 
 export default [
         {
