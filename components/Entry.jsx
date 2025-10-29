@@ -1,9 +1,12 @@
 
-import marker from '/images/marker.png'
+import marker from '../images/marker.png'
 
 
 export default function Entry(props) {
     return (
+        <>
+          <div className="container">
+    <div className="card">
         <article className="journal-entry">
             <div className="main-image-container">
                 <img 
@@ -23,8 +26,14 @@ export default function Entry(props) {
                 <h2 className="entry-title">{props.entry.title}</h2>
                 <p className="trip-dates">{props.entry.dates}</p>
                 <p className="entry-text">{props.entry.text}</p>
-            </div>
-            
-        </article>
+            </div>       
+        </article>    
+
+</div>
+</div>
+
+
+        </>
+
     )
 }

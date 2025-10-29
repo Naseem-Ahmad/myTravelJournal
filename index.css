@@ -4,13 +4,12 @@ html, body {
 
 body {
     font-family: Inter;
-    background-color: #2B283A;
+    background-color: #23252C;
     color: white;
+
 }
 
-.container {
-    margin: 45px 40px;
-}
+
 
 header {
     background-color: #1A1B21;
@@ -33,7 +32,7 @@ header > h1 {
 
 article.journal-entry {
     display: flex;
-    margin-bottom: 36px;
+    margin-bottom: 6px;
 }
 
 article.journal-entry .marker {
@@ -87,4 +86,24 @@ article.journal-entry .main-image {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;  
     overflow: hidden;
+}
+
+.container {
+  background-color: #23252C;
+  /* height: auto;        */
+  margin-top: 50px; 
+  margin-bottom: 50px;
+
+}
+
+.card{
+ margin-left: 450px;
+  background-color: #1A1B21;
+  color: white;
+  padding: 30px 40px;       /* Space inside card */
+  border-radius: 15px;      /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Soft shadow */
+
+  max-width: 500px;  
+  
 }
